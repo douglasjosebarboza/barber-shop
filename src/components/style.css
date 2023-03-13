@@ -1,0 +1,74 @@
+header div {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div img {
+    height: 100px;
+    width: auto;
+}
+
+header div button {
+    display: flex;
+    align-items: center;
+    border: 2px solid #B2987D;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+header div button img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.capa {
+    background-image: url('/assets/banner-barbearia.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1024px;
+    padding: 0 50px;
+    margin: auto;
+    font-family: 'Poppins';
+    height: 400px;
+    text-align: center;
+}
+
+.infos span {
+    font-weight: bold;
+}
+
+.infos .ass {
+    margin-top: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #B2987D;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: #000;
+  }
+
+.dark-mode {
+    background-color: #252323;
+    color: #fff;
+}

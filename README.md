@@ -7,7 +7,7 @@ Foi desenvolvido um projeto para a criação de uma Landing Page dedicada a uma 
 O design da Landing Page busca capturar a atmosfera única da barbearia, apresentando informações essenciais de maneira atraente.
 
 ### Tecnologias utilizadas
-- ReactJS
+- React JS
 - CSS
 - Dark Mode
 
